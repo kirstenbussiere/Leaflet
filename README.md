@@ -1,1 +1,2 @@
 # Leaflet
+Leaflet interactive maps.
