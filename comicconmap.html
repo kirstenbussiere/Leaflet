@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<title>Comic Cons across North America</title>
+	<title>Quick Start - Leaflet</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +16,19 @@
 	
 </head>
 <body>
+   
 <h1>Comic Cons Research Project</h1>
-
+ <div class="btn-group">
+        <button type="button" id="Comic Conventions" class="btn btn-success">Comic Conventions</button>
+        <button type="button" id="Comic Arts Festivals" class="btn btn-primary">Comic Arts Festivals</button>
+        <button type="button" id="Other" class="btn btn-danger">Other</button>
+    </div>
 
 <div id="mapid" style="width: 1366px; height: 768px;"></div>
-<script>
-
+   <script type="text/javascript">
+  
+   alert("The Comic Cons Research Project's first research activity was to create a map of the comic cons, comic art festivals, and related media fandom events that took place in the United States, Canada, and Mexico during 2017. In recent years, cultural planners and policymakers have used mapping as a tool to understand the demand for cultural amenities and to help measure their impacts. Our map will serve as an interactive, public directory that organizers, exhibitors, and attendees can use to explore the sector. Here is is!")
+      
 	var mymap = L.map('mapid').setView([54.5260, -105.2551], 3);
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
